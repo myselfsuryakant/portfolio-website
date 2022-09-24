@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bahiana&family=Bebas+Neue&family=Poppins:wght@600&family=Quicksand:wght@500&display=swap" rel="stylesheet">   
+    <link rel="icon" type="image/x-icon" href="Images/favicon.ico">
+    <script src="https://kit.fontawesome.com/c4b98363eb.js" crossorigin="anonymous"></script>
+    <style type="text/css">
+        ::-webkit-scrollbar{
+            width: 10px;
+        }
+        ::-webkit-scrollbar-thumb{
+            border-radius: 30px;
+            background: -webkit-gradient(linear,left top, left bottom, from(#ffc300), to(#ffc300));
+            box-shadow: inset 2px 2px 2px rgba(255,255,255,0.25), inset -2px -2px -2px rgba(0,0,0,0.25);
+        }
+    </style>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/New logo.png" class="logo">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>                
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Web Developer</p>
+            <h1>Hi, I'm<br>
+                <div class="rotate-words">
+                    <span style="--d: 0s">Thomas Shelby.</span>
+                    <span style="--d: 2s">UI/UX Designer.</span>
+                    <span style="--d: 4s">Web Developer.</span>
+                    <span style="--d: 6s">App Developer.</span>
+                </div>
+            </h1>
+        </div>
+    </div>
+</div>
+<!-- ---------about----------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/About Image.png">
+            </div>
+            <div class="about-col-2">
+            <h1 class="sub-title">ABOUT ME</h1>
+            <p>Since beginning my journey as a freelance designer over 11 years ago, I've done remote work for agencies, consulted for startups, and collaborated with talented people to create digital products for both business and consumer use. I'm quietly confident, naturally curious, and perpetually working on improving my chops one design problem at a time.</p>
+            
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                    <li><span>Web Development</span><br>Web App Development</li>
+                    <li><span>App Development</span><br>Building Andriod/IOS Apps</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>2022 - Current</span><br>UI/UX Design Training at ET Institute</li>
+                    <li><span>2019 - 2021</span><br>Team Lead at StarApp LLC.</li>
+                    <li><span>2017 - 2019</span><br>UI/UX Design Executive at CoinDCX Ltd.</li>
+                    <li><span>2016 - 2017</span><br>Internship at ekart eCommerce.</li>
+                </ul>
+            </div><div class="tab-contents" id="education">
+                <ul>
+                    <li><span>2016</span><br>UI/UX Design Training at ET Institute.</li>
+                    <li><span>2016</span><br>MBA from Harvard University</li>
+                    <li><span>2014</span><br>BBA from Harvard University</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -----------Services------------- -->
+<div id="services">
+    <div class="container">
+       <h1 class="sub-title">MY SERVICES</h1>
+       <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>You will get some wholesome experience after our services, Get the best out of our services with bare minimum cost. Get a wide range of services according to your budget.</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>UI/UX Design</h2>
+                <p>You will get some wholesome experience after our services, Get the best out of our services with bare minimum cost. Get a wide range of services according to your budget.</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2>App Dev</h2>
+                <p>You will get some wholesome experience after our services, Get the best out of our services with bare minimum cost. Get a wide range of services according to your budget.</p>
+                <a href="#">learn more</a>
+            </div>
+       </div>
+</div>
+</div>
+<!-- ---------Portfolio--------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/Work 1.jpeg">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you to the talented people around the world.
+                        Download it from Play Store or App Store.</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Work 2.jpeg">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app connects you to the talented people around the world.
+                        Download it from Play Store or App Store.</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Work 3.jpeg">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The app connects you to the talented people around the world.
+                        Download it from Play Store or App Store.</p>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!-- --------------Contact------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>tommyshelby@peakyblinders.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>  0123456789</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/suryakant.acharya.750" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://twitter.com/sarcasmic_sk" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/sarcasmic_sk/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/myselfsuryakant/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="images/Suryakant Resume.pdf" download class="btn btn2">Download CV</a>
+                </h1>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Messages" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Thomas, Made by Suryakant and Tushar.</p>
+    </div>
+</div>
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyqkBRu99OPIDMTA37N4G_ak7SNRFgvmLQ2rv2caYZZCzC8bC0zQ2885pLtWp1sEena/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
